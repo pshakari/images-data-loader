@@ -18,7 +18,7 @@ objects:
       spec:
         containers:
           - name: images-data-loader
-            image: docker.io/radanalyticsio/images-data-loader
+            image: docker.io/images-data-loader
             env:
               - name: SERVER
                 value: postgresql

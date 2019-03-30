@@ -48,7 +48,7 @@ class DatabaseLoader:
 
 			row = (name, title, data)
 			
-			conn.executequery, row()
+			conn.execute(query, row)
 
 if __name__ == '__main__':
     dbl = DatabaseLoader()
