@@ -17,8 +17,8 @@ objects:
         name: ${JOB_NAME}
       spec:
         containers:
-          - name: postgres 
-            image: postgres:10.4
+          - name: images-data-loader 
+            image: images-data-loader
             env:
               - name: SERVER
                 value: postgresql
