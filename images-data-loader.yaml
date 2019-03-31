@@ -17,13 +17,13 @@ objects:
         name: ${JOB_NAME}
       spec:
         containers:
-          - name: images-data-loader
-            image: docker.io/images-data-loader
+          - name: postgres 
+            image: postgres:10.4
             env:
               - name: SERVER
                 value: postgresql
               - name: DBNAME
-                value: imagesDb
+                value: wineDb
               - name: USER
                 value: username
               - name: PASSWORD
